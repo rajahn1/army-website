@@ -1,11 +1,12 @@
-import FirstCardImage from '../../../public/fisrt-card-image.jpg';
+import SecondCardImage from '../../../public/second-card-image.jpg';
 import Image from 'next/image';
-export default function CardFirst() {
+
+export default function CardSecond() {
     return(
         <div className="w-1/3">
             <Image
-            src={FirstCardImage}
-            alt="first-image"
+            src={SecondCardImage}
+            alt="second-image"
             className='h-full opacity-75'
             />
         </div>
