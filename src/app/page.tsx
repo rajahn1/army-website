@@ -1,5 +1,9 @@
+import CardFirst from '../components/CardFirst';
+
 export default function Home() {
   return(
-    <h1> hello world</h1>
+    <div className="flex flex-row">
+      <CardFirst />
+    </div>
   )
 }

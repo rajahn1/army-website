@@ -1,0 +1,57 @@
+nav {
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+    color:whitesmoke;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+nav ul li{
+    padding: 16px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    animation: liAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes liAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
