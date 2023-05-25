@@ -5,14 +5,14 @@ import Image from "next/image";
 import IconNav from '../../../public/icons8-menu-64.png';
 export default function Header(){
     return(
-        <header className="shadow-md flex justify-center items-center h-20 border-b-4 border-b-white-500">
+        <header className="drop-shadow-lg flex justify-center items-center h-20 border-b-violet-300 border-b-2">
             <div className="flex items-center">
                 <span className="title ml-8"> ARMY </span>
-                <div className="flex flex-col text-sm border-l-2 border-white text-white">
+                {/* <div className="flex flex-col text-sm border-l-2 border-white text-white"> */}
                     {/* <span className="ml-2"> EXÉRCITO</span> */}
                     {/* <span className="ml-2"> ARTE</span> */}
                    
-                </div>
+                {/* </div> */}
                     <Image
                     src={MandalaArmy}
                     width={70}
